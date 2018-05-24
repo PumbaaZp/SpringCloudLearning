@@ -15,8 +15,5 @@ logs/
 .DS_Store
 .svn/
 /bin/
-/*/.mvn/
-/*/mvnw
-/*/mvnw.cmd
 
 overlays/

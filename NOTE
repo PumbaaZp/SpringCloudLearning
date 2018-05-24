@@ -1,0 +1,10 @@
+20180524
+client修改端口启动多个实例（idea single instance only 选项）
+消费者通过ribbon+restTemplate方式调用client，自动负载均衡
+新增的client无法被分配
+eureka client无法调用discovery client,no instances available for service-ribbon
+
+20180523
+注册服务与发现中心
+client离线时server端未实时刷新
+需server端启动后client才能注册，已注册后可通过重启server端刷新实例列表
