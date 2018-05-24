@@ -1,6 +1,7 @@
 20180524
+消费者通过声明feign接口的方式调用client，自动负载均衡
 client修改端口启动多个实例（idea single instance only 选项）
-消费者通过ribbon+restTemplate方式调用client，自动负载均衡
+消费者通过ribbon+restTemplate方式调用client，注解声明负载均衡
 新增的client无法被分配
 eureka client无法调用discovery client,no instances available for service-ribbon
 
