@@ -1,3 +1,8 @@
+20180525
+Hystrix熔断器多请求几次后会有避开中断client的机制
+hystrix仪表盘监控地址：/hystrix.stream
+feign要加仪表盘则pom需引hystrix&@EnableHystrix@EnableCircuitBreaker(yml配置仍需保留)
+
 20180524
 消费者通过声明feign接口的方式调用client，自动负载均衡
 client修改端口启动多个实例（idea single instance only 选项）
