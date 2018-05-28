@@ -1,3 +1,7 @@
+20180528
+zuul路由：指定serviceId需大写
+zuul路由过滤较简单，可扩展
+
 20180525
 Hystrix熔断器多请求几次后会有避开中断client的机制
 hystrix仪表盘监控地址：/hystrix.stream
