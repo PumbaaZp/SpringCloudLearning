@@ -1,4 +1,10 @@
+20180529
+config-client名称与配置文件前缀需一致，再加-dev等
+config-server默认使用8888端口，未找到如何修改
+
 20180528
+config-client神多坑
+config-server需用Camden.SR6,Dalston获取不到配置
 zuul路由：指定serviceId需大写
 zuul路由过滤较简单，可扩展
 
