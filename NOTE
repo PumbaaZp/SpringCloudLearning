@@ -1,3 +1,6 @@
+20180603
+config-server偶现获取不到git配置内容，疑为版本原因，未找到解决方案
+
 20180601
 config-client配置文件需为properties，某些配置才能在运行中（前）进行加载
 config-server配置文件需为application.properties才能修改端口（官网）
